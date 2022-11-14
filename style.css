@@ -1,0 +1,177 @@
+/* color palette
+#0969B3
+#DCE039
+#929416
+#E02722
+#94211E
+ */
+
+
+
+ html {
+    background-image: url(/images/bigGreenspace.jpg);
+    background-color: transparent;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+}
+
+#newBoard {
+    background-color: #0969B3;
+    height: 75vh;
+    min-height: 220px;
+    max-height: 530px;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 3px 2px 5px black;
+    border-radius: 10%;
+}
+
+.red {
+    width: 5vw;
+    height: 10vh;
+    min-height: 25px;
+    max-height: 82px;
+    margin: 2px 2px 2px 2px;
+    background-color: #94211E;
+    border-radius: 50%;
+    border: 1px solid navy;
+    box-shadow: 3px 2px 5px black;
+    transition:  background-color 2s;
+
+}
+
+.yellow {
+    width: 5vw;
+    height: 10vh;
+    min-height: 25px;
+    max-height: 82px;
+    margin: 2px 2px 2px 2px;
+    background-color: #929416;
+    border-radius: 50%;
+    border: 1px solid navy;
+    box-shadow: 3px 2px 5px black;
+    transition:  background-color 2s;
+
+}
+
+.invis {
+    opacity: 0;
+    transition: opacity 5s;
+}
+
+.disa {
+    display: none;
+}
+
+
+div {
+    width: 5vw;
+    height: 10vh;
+    min-height: 25px;
+    max-height: 82px;
+    margin: 2px 2px 2px 2px;
+    background-color: none;
+    border-radius: 50%;
+    border: 1px solid navy;
+    box-shadow: 3px 2px 5px black;
+    transition:  background-color 2s;
+}
+
+
+
+#gameName {
+   font-weight: bold;
+   font-size: 1.5em;
+   text-align: center;
+   background-color: #0969B3;
+   color: aliceblue; 
+   width: 25vw;
+   padding: 10px 0 10px 0;
+   box-shadow: 3px 2px 5px aliceblue;
+   border-radius: 25%;
+   position: relative;
+    top: 10px;
+}
+
+#displayedUsers {
+    position: relative;
+    top: 30px;
+
+}
+
+#userOne {
+    color: aliceblue;
+    background-color: #929416;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#userTwo {
+    color: aliceblue;
+    background-color: #94211E;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#winner {
+    color: aliceblue;
+    background-color: #35B309;
+    padding: 5px 0 10px 0;
+    text-align: center;
+    opacity: 0.9;
+    height: 5vh;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-top: 8vh;
+}
+
+#reset-game {
+    width: 10vw;
+    height: 5vh;
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+
+#single-player {
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(197, 237, 64);
+    margin-top: 10px;
+}
+
+#random {
+    width: 10vw;
+    height: 5vh;
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+
+#instructions {
+    background-color: #DCE039;
+    color: navy;
+    padding: 5px 3px 5px 3px;
+    font-size: .65em;
+    text-align: justify;
+}
