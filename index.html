@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Connect 4 by CC</title>
+
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="app.js" defer></script>
+    </head>
+    <header>
+        <h1 id="gameName">Connect 4</h1>
+        <section id="displayedUsers">
+            <section id="userOne">Yellow</section>
+            <section id="userTwo">Red</section>
+            <section class="disa" id="winner"></section>
+        </section>
+    </header>
+    <body>
+        <section id="menu">
+            <section>
+                <input id="userOneInput" type="text" value="Enter User 1 Name"/>
+                <button id='submit-user-one'>Submit</button>
+            </section>
+            <section>
+                <input id="userTwoInput" type="text" value="Enter User 2 Name"/>
+                <button id='submit-user-two'>Submit</button>
+            </section>
+            <section>
+                <button id='reset-game'>Reset Game</button>
+                <button id='single-player'>Single Player</button>
+                <button id='random'>Randomize</button>
+            </section>
+            <p id="instructions">`Instructions:<br>
+                - Instructions disappear automatically once the first move is made.<br>
+                - First player to "Connect 4" pieces horizontially, vertically, or diagonially wins.<br>
+                    - Select the Reset Game button to play again!<br>
+                - User 1 (Yellow) will go first by default.<br>
+                    - Once both players have entered their names, select the Randomize button to have the game select which user will be Yellow.<br>
+                - Select the Single Player button to play against the Computer!`<br>
+            
+                
+            </p>
+
+        </section>
+          <section id="newBoard"></section>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
